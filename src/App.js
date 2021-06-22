@@ -28,6 +28,7 @@ function App() {
       }
     };
     consultarAPI();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [consultar]);
 
   let componente;
